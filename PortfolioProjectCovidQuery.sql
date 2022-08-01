@@ -1,15 +1,4 @@
-SELECT *
-FROM PortfolioProject..CovidDeaths
-ORDER BY 3
 
-
--- for me:
--- show when was the real peak
-
-
-SELECT location, date, total_cases, new_cases, total_deaths, population
-FROM PortfolioProject..CovidDeaths
-ORDER BY 1, 2
 
 
 -- adding a column showing percentage of total cases vs total deaths
